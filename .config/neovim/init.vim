@@ -66,10 +66,26 @@ Plug 'luochen1990/rainbow'
 Plug 'godlygeek/tabular'
 call plug#end()
 
-"EdenEast/nightfox.nvim"
-colorscheme carbonfox
+"EdenEast/nightfox.nvimi - neovim主题插件，目前暂停使用，主题使用了：NeoSolarized"
+"==========================="
+"colorscheme carbonfox
 "set cursorlineopt=screenline
-set cursorline
+"set cursorline
+"==========================="
+
+"主题 - 参考 craftzdog 配置，使用 NeoSolarized 主题但又定义背景色"
+if exists("&termguicolors") && exists("&winblend")
+  syntax enable
+  set termguicolors
+  set winblend=0
+  set wildoptions=pum
+  set pumblend=5
+  set background=dark
+  " Use NeoSolarized"
+  let g:neosolarized_termtrans=1
+  runtime ./colors/NeoSolarized.vim
+  colorscheme NeoSolarized
+endif
 
 "vim-airline"
 let g:airline_theme='deus'
@@ -102,7 +118,6 @@ let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
 " coc.nvim: 设置 <tab> 键触发自动补全，开启该功能后插入模式下不能使用<tab>键"
-"=============================================="
 "set hidden
 "set updatetime=100
 "set shortmess+=c
@@ -115,7 +130,6 @@ let g:airline_symbols.linenr = ''
 "  let col = col('.') - 1
 "  return !col || getline('.')[col - 1]  =~# '\s'
 "endfunction
-"=============================================="
 
 "rainbow"
 let g:rainbow_active = 1
