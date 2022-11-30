@@ -1,9 +1,9 @@
-# Requirements
+# neovim-config-files
+
+## Requirements
 + python3
 + git
 + nodejs
-
-# neovim-config-files
 
 ## neovim setup
 + Installation (CentOS8)
