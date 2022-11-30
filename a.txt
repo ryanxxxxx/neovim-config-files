@@ -1,8 +1,0 @@
-111
-22222222222iiii
-bnbnbnbnbnbn
-<<<<<<< HEAD
-jjjj
-=======
-hot fix
->>>>>>> hot_fix
