@@ -1,3 +1,8 @@
+# Requirements
++ python3
++ git
++ nodejs
+
 # neovim-config-files
 
 ## neovim setup
