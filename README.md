@@ -11,6 +11,12 @@ dnf install neovim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME}"/.config/nvim/init.vim --create-dirs \
        https://raw.githubusercontent.com/ryanxxxxx/neovim-config-files/master/.config/neovim/init.vim'
 ```
++ Download theme config file
+```Bash
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME}"/.config/nvim/colors/NeoSolarized.vim --create-dirs \
+       https://raw.githubusercontent.com/ryanxxxxx/neovim-config-files/master/.config/colors/NeoSolarized.vim'
+```
+
 + Install vim-plug
 ```Bash
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
