@@ -2,17 +2,17 @@
 ---
 ## neovim setup
 + Installation (CentOS8)
-```bash
+```Bash
 dnf install epel-release
 dnf install neovim
 ```
 + Download config file
-```bash
+```Bash
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME}"/.config/nvim/init.vim --create-dirs \
        https://raw.githubusercontent.com/ryanxxxxx/neovim-config-files/master/.config/neovim/init.vim'
 ```
 + Install vim-plug
-```bash
+```Bash
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
