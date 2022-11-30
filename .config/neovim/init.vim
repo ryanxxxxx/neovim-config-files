@@ -70,7 +70,7 @@ call plug#end()
 "==========================="
 "colorscheme carbonfox
 "set cursorlineopt=screenline
-"set cursorline
+set cursorline
 "==========================="
 
 "主题 - 参考 craftzdog 配置，使用 NeoSolarized 主题但又定义背景色"
