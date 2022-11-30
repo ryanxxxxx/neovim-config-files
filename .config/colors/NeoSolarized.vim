@@ -76,7 +76,7 @@
 "
 " SOLARIZED HEX     16/8 TERMCOL  XTERM/HEX   L*A*B      sRGB        HSB
 " --------- ------- ---- -------  ----------- ---------- ----------- -----------
-" base03    #002b36  8/4 brblack  234 #1c1c1c 15 -12 -12   0  43  54 193 100  21
+" base03    #000000  8/4 brblack  234 #1c1c1c 15 -12 -12   0  43  54 193 100  21
 " base02    #073642  0/4 black    235 #262626 20 -12 -12   7  54  66 192  90  26
 " base01    #586e75 10/7 brgreen  240 #4e4e4e 45 -07 -07  88 110 117 194  25  46
 " base00    #657b83 11/7 bryellow 241 #585858 50 -07 -07 101 123 131 195  23  51
@@ -479,7 +479,7 @@ exe "hi! IncSearch"      .s:fmt_stnd   .s:fg_orange .s:bg_none
 exe "hi! Search"         .s:fmt_revr   .s:fg_yellow .s:bg_none
 exe "hi! MoreMsg"        .s:fmt_none   .s:fg_blue   .s:bg_none
 exe "hi! ModeMsg"        .s:fmt_none   .s:fg_blue   .s:bg_none
-exe "hi! LineNr"         .s:fmt_none   .s:fg_base01 .s:bg_base02
+exe "hi! LineNr"         .s:fmt_none   .s:fg_base01 .s:bg_none
 exe "hi! Question"       .s:fmt_bold   .s:fg_cyan   .s:bg_none
 if (g:neosolarized_vertSplitBgTrans == 1)
     exe "hi! VertSplit"  .s:fmt_none   .s:fg_base00 .s:bg_none
@@ -525,7 +525,7 @@ exe "hi! TabLineFill"    .s:fmt_none   .s:fg_base0  .s:bg_base02  .s:sp_base0
 exe "hi! TabLineSel"     .s:fmt_none   .s:fg_base01  .s:bg_base2  .s:sp_base0  .s:fmt_revr
 exe "hi! CursorColumn"   .s:fmt_none   .s:fg_none   .s:bg_base02
 exe "hi! CursorLine"     .s:fmt_uopt   .s:fg_none   .s:bg_base02  .s:sp_base1
-exe "hi! CursorLineNr"   .s:fmt_uopt   .s:fg_yellow   .s:bg_base02  .s:sp_base1
+exe "hi! CursorLineNr"   .s:fmt_uopt   .s:fg_yellow   .s:bg_base03  .s:sp_base1
 exe "hi! ColorColumn"    .s:fmt_none   .s:fg_none   .s:bg_base02
 exe "hi! Cursor"         .s:fmt_none   .s:fg_base03 .s:bg_base0
 hi! link lCursor Cursor
