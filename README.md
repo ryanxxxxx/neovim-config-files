@@ -1,5 +1,5 @@
 # neovim-config-files
----
+
 ## neovim setup
 + Installation (CentOS8)
 ```Bash
@@ -21,4 +21,14 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 nvim .config/nvim/init.vim
 
 :PlugInstall
+```
+
+## neovim setup
++ Installation (CentOS8)
+```Bash
+dnf install tmux
+```
++ Download config file
+```Bash
+
 ```
