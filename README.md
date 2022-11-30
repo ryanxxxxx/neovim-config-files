@@ -29,7 +29,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 + Install plug
 ```Bash
-nvim .config/nvim/init.vim
+nvim
 
 :PlugInstall
 ```
